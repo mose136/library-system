@@ -1,0 +1,56 @@
+/* Add these CSS rules to your style.css file */
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: orange; /* Change the background color to pink */
+  color: #333; /* Text color */
+  margin: 0;
+  padding: 0;
+}
+
+center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #fff; /* Form background color */
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: red; /* Title text color */
+}
+
+p {
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid green; /* Text input border color */
+  border-radius: 5px;
+}
+
+button[type="submit"], button[type="reset"] {
+  background-color: yellow; /* Button background color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+  background-color: #a30c38; /* Hover background color */
+}
+
+/* Add more styles as needed */
